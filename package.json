@@ -9,7 +9,7 @@
     "watch": "babel src --stage 0 --modules common --out-dir lib --watch",
     "prepublish": "npm run compile",
     "prepare": "npm run compile",
-    "install": "npm run compile",
+    "install": "npm run compile"
   },
   "repository": {
     "type": "git",
