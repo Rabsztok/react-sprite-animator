@@ -7,7 +7,8 @@
     "test": "eslint ./src && eslint ./test && npm run compile && browserify test/*.js | tape-run",
     "compile": "babel src --stage 0 --modules common --out-dir lib",
     "watch": "babel src --stage 0 --modules common --out-dir lib --watch",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "prepare": "npm run compile"
   },
   "repository": {
     "type": "git",
