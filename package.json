@@ -8,7 +8,8 @@
     "compile": "babel src --stage 0 --modules common --out-dir lib",
     "watch": "babel src --stage 0 --modules common --out-dir lib --watch",
     "prepublish": "npm run compile",
-    "prepare": "npm run compile"
+    "prepare": "npm run compile",
+    "install": "npm run compile",
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
   },
   "homepage": "https://github.com/jcblw/react-sprite-animator#readme",
   "peerDependencies": {
-    "react": "0.13.x || 0.14.x || ^15.x"
+    "react": "0.13.x || 0.14.x || ^15.x || ^16.x"
   },
   "devDependencies": {
     "babel": "^6.5.2",
